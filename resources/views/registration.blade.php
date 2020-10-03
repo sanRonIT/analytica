@@ -12,7 +12,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
 
-<body class="bg-theme">
+<body class="registration-bg-theme">
 
 	<!-- Start wrapper-->
 	<div id="wrapper" class="mt-3">
