@@ -24,13 +24,12 @@
 					</div>
 
 					<div class=letterspacing>
-						<form style="margin-top:55px;">
+						<form class="forms">
 							<div class="form-group">
-								<div class="position-relative has-icon-left name">
+								<div class="position-relative">
 									Enter your Name
 									<div class="gap">
-										<input type="text" id="exampleInputName" class="form-control input-shadow">
-
+										<input type="text" id="exampleInputName" class="form-control">
 									</div>
 									<div class="form-control-position">
 										<img src="/images/bg-images/icon1.svg">
@@ -39,10 +38,10 @@
 							</div>
 
 							<div class="form-group">
-								<div class="position-relative has-icon-left name">
+								<div class="position-relative">
 									Enter your Email ID
 									<div class="gap">
-										<input type="text" id="exampleInputEmailId" class="form-control input-shadow">
+										<input type="text" class="form-control">
 									</div>
 									<div class="form-control-position">
 										<img src="/images/bg-images/icon2.svg">
@@ -51,10 +50,10 @@
 							</div>
 
 							<div class="form-group">
-								<div class="position-relative has-icon-left name">
+								<div class="position-relative">
 									Choose Password
 									<div class="gap">
-										<input type="text" id="exampleInputPassword" class="form-control input-shadow">
+										<input type="text" class="form-control">
 									</div>
 									<div class="form-control-position">
 										<img src="/images/bg-images/icon3.svg">
@@ -63,10 +62,10 @@
 							</div>
 
 							<div class="form-group">
-								<div class="position-relative has-icon-left name">
+								<div class="position-relative">
 									Re Enter Password
 									<div class="gaps">
-										<input type="text" id="exampleInputPassword" class="form-control input-shadow">
+										<input type="text" class="form-control">
 									</div>
 									<div class="form-control-position">
 										<img src="/images/bg-images/icon3.svg">
@@ -77,19 +76,19 @@
 
 					<div class="form-group">
 						<div class="icheck-material-white">
-							<input type="checkbox" id="user-checkbox" checked="" />
-							<label for="user-checkbox" class="terms">I heraby, agree all the terms and condition</label>
+							<input type="checkbox" checked="" />
+							<label for="user-checkbox">I heraby, agree all the terms and condition</label>
 						</div>
 					</div>
-					<button style="text-align:center;" type="button" class="btn btn-light btn-block waves-effect waves-light signup center">Sign Up</button>
+					<button style="text-align:center;" type="button" class="btn btn-light">Sign Up</button>
 				</div>
 
 
 				<svg class="svg1" height="52" width="42">
-					<line x1="0" y1="0" x2="130" y2="70" style="stroke:rgb(236, 235, 235);stroke-width:1" />
+					<line x1="0" y1="0" x2="130" y2="70" />
 				</svg>
 				<svg class="svg2" height="37" width="80">
-					<line x1="0" y1="0" x2="130" y2="70" style="stroke:rgb(236, 235, 235);stroke-width:1" />
+					<line x1="0" y1="0" x2="130" y2="70" />
 				</svg>
 
 				<span class="dot">

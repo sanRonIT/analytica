@@ -1,64 +1,46 @@
-.bg-theme {
+.registration-bg-theme {
   background-image: url("/images/bg-images/background.png");
   font-family: "Lato", sans-serif;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.8px;
   margin: 0;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   line-height: 1;
   text-align: left;
+  color: #ffff;
+  /* Main Logo */
+  /*Cards */
+  /* Forms */
+  /*Buttons */
+  /*bottom line*/
+  /* top line*/
+  /* dot at the end*/
 }
 
-/* Main Logo */
-
-.logo img {
-  height: 100px;
-  width: 100px;
-}
-
-.logo {
+.registration-bg-theme .logo {
   width: 100%;
   height: 60px;
   line-height: 60px;
   text-align: center;
 }
 
-/*Cards */
+.registration-bg-theme .logo img {
+  height: 100px;
+  width: 100px;
+}
 
-.card {
+.registration-bg-theme .card {
   margin-bottom: 25px;
   border: none;
   background-color: rgba(52, 194, 219, 0.2);
-  border-top: 50px;
-  margin-left: 400px;
+  margin-left: 500px;
   margin-bottom: 25px;
-  margin-left: 400px;
   position: relative;
   display: flex;
-  min-width: 0;
-  margin-top: 70px;
-}
-
-.card-content {
-  padding-left: 18px;
-  padding-right: 18px;
-}
-
-.card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  font-size: 14px;
-  color: #ffffff;
-}
-
-.card-authentication1 {
   width: 0rem;
   margin-top: 70px;
-  margin-left: 500px;
 }
 
-.card-body {
+.registration-bg-theme .card .card-body {
   height: 500px;
   width: 380px;
   padding-top: 6px;
@@ -69,76 +51,71 @@
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
 }
 
-/* Forms */
+.registration-bg-theme .card .card-content {
+  padding-left: 18px;
+  padding-right: 18px;
+}
 
-.gap {
+.registration-bg-theme .forms {
+  margin-top: 55px;
+}
+
+.registration-bg-theme .forms .form-group {
+  margin-bottom: 0px;
+  /* alignment of the checkbox*/
+  /* outside appreance of the checkbox*/
+  /* tick mark appearance while clicking the checkbox*/
+  /*style for checkbox while pressing it*/
+  /*tick mark of the checkbox*/
+  /*color of the chechbox*/
+  /*Tick mark in the check box*/
+}
+
+.registration-bg-theme .forms .form-group .position-relative {
+  position: relative;
+  font-size: small;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 90px;
+  margin-bottom: 2px;
+}
+
+.registration-bg-theme .forms .form-group .form-control {
+  padding-right: 0.85rem;
+  padding-left: 2.9rem;
+}
+
+.registration-bg-theme .forms .form-group .form-control-position {
+  right: auto;
+  left: 0px;
+}
+
+.registration-bg-theme .forms .form-group .gap {
   margin-bottom: 12px;
   margin-top: 6px;
 }
 
-.gaps {
+.registration-bg-theme .forms .form-group .gaps {
   margin-bottom: 14px;
   margin-top: 6px;
 }
 
-.form-control-position img {
-  height: 18px;
-  width: 18px;
-}
-
-.custom-file-label {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-  height: calc(2.25rem + 2px);
-  padding: 0.375rem 0.75rem;
-  line-height: 1.5;
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 0px solid #ced4da;
-  border-radius: 0.25rem;
-}
-
-.form-group {
-  margin-bottom: 0px;
-}
-
-.col-form-label {
-  font-size: 13px;
-}
-
-.form-control {
+.registration-bg-theme .forms .form-group .form-control {
   border: 0px solid #e5eaef;
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
   height: calc(1.3em + 0.69rem + 2px);
+  border-radius: 40px;
+  margin-bottom: 10px;
 }
 
-.form-control:focus {
+.registration-bg-theme .forms .form-group .form-control:focus {
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.45);
 }
 
-.form-control-rounded {
-  border-radius: 30px;
-}
-
-.form-control-xl {
-  height: 60px;
-  font-size: 26px;
-}
-
-.position-relative {
-  position: relative;
-  font-size: small;
-  letter-spacing: 1.3px;
-}
-
-/*spacing icons*/
-
-.form-control-position {
+.registration-bg-theme .forms .form-group .form-control-position {
   position: absolute;
   top: 6px;
   right: 0;
@@ -151,129 +128,17 @@
   margin-left: -8px;
 }
 
-.has-icon-left .form-control {
-  padding-right: 0.85rem;
-  padding-left: 2.9rem;
+.registration-bg-theme .forms .form-group .form-control-position img {
+  height: 18px;
+  width: 18px;
 }
 
-.has-icon-left .form-control-position {
-  right: auto;
-  left: 0px;
-}
-
-/* SearachBar */
-
-.search-bar {
-  margin-left: 5px;
-  position: relative;
-}
-
-.search-bar input {
-  border: 0px solid #f1f1f1;
-  font-size: 10px;
-  width: 600px;
-  border-radius: 0.25rem;
-  height: 34px;
-  padding: 0.375rem 2rem 0.375rem 0.75rem;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.search-bar input::-moz-placeholder {
-  color: #fff !important;
-  font-size: 13px;
-  opacity: 0.5;
-}
-
-.search-bar input:-ms-input-placeholder {
-  color: #fff !important;
-  font-size: 13px;
-  opacity: 0.5;
-}
-
-.search-bar input::placeholder {
-  color: #fff !important;
-  font-size: 13px;
-  opacity: 0.5;
-}
-
-.search-bar input:focus {
-  background-color: rgba(0, 0, 0, 0.2);
-  border: 0px solid #f1f1f1;
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.45);
-}
-
-.search-bar a i {
-  position: absolute;
-  top: 8px;
-  right: 15px;
-  color: #fff;
-  font-size: 16px;
-}
-
-/*Buttons */
-
-.btn {
-  font-family: Lato;
-  font-size: 0.7rem;
-  font-weight: 520;
-  letter-spacing: 1px;
-  padding: 9px 19px;
-  border-radius: 0.25rem;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  text-align: center;
-  display: block;
-}
-
-/* button focus styling*/
-
-.btn:focus {
-  box-shadow: none;
-}
-
-/* button color*/
-
-.btn-light {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.125);
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-/* regarding button style while clicking it*/
-
-.btn-light:hover {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.18);
-  border-color: rgba(255, 255, 255, 0.18);
-}
-
-.btn-light:not(:disabled):not(.disabled).active,
-.btn-light:not(:disabled):not(.disabled):active,
-.show > .btn-light.dropdown-toggle {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.125);
-  border-color: rgba(255, 255, 255, 0.125);
-}
-
-/* terms and conditions*/
-
-.terms {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 0.75rem;
-  font-weight: 200;
-  margin-bottom: 10px;
-  margin-left: 15px;
-  border-top: 0px;
-  margin-top: 0px;
-}
-
-/* alignment of the checkbox*/
-
-[class*=icheck-material] {
+.registration-bg-theme .forms .form-group [class*=icheck-material] {
   min-height: 22px;
   margin-bottom: 6px;
 }
 
-[class*=icheck-material] > label {
+.registration-bg-theme .forms .form-group [class*=icheck-material] > label {
   padding-left: 29px;
   min-height: 22px;
   line-height: 22px;
@@ -284,7 +149,7 @@
   cursor: pointer;
 }
 
-[class*=icheck-material] > input:first-child {
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child {
   position: absolute;
   opacity: 0;
   margin: 0;
@@ -297,12 +162,11 @@
   transform: scale(2);
   -ms-transform: scale(2);
   transition: opacity 0.3s, transform 0.3s;
+  margin-left: 10px;
 }
 
-/* outside appreance of the checkbox*/
-
-[class*=icheck-material] > input:first-child + label::before,
-[class*=icheck-material] > input:first-child + input[type=hidden] + label::before {
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child + label::before,
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child + input[type=hidden] + label::before {
   content: "";
   display: inline-block;
   position: absolute;
@@ -314,10 +178,8 @@
   box-sizing: border-box;
 }
 
-/* tick mark appearance while clicking the checkbox*/
-
-[class*=icheck-material] > input:first-child:checked + label::after,
-[class*=icheck-material] > input:first-child:checked + input[type=hidden] + label::after {
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child:checked + label::after,
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child:checked + input[type=hidden] + label::after {
   content: "";
   display: inline-block;
   position: absolute;
@@ -333,107 +195,105 @@
   box-sizing: border-box;
 }
 
-/*style for checkbox while pressing it*/
-
-[class*=icheck-material] > input:first-child:active {
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child:active {
   transform: scale(0);
   -ms-transform: scale(0);
   opacity: 0;
   transition: opacity 0s, transform 0s;
 }
 
-/*tick mark of the checkbox*/
-
-[class*=icheck-material] > input[type=checkbox]:first-child:checked + label::after,
-[class*=icheck-material] > input[type=checkbox]:first-child:checked + input[type=hidden] + label::after {
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input[type=checkbox]:first-child:checked + label::after,
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input[type=checkbox]:first-child:checked + input[type=hidden] + label::after {
   width: 6px;
   height: 12px;
   transform: translate(7px, 2px) rotate(45deg);
   -ms-transform: translate(7px, 2px) rotate(45deg);
 }
 
-.icheck-material-white > input:first-child:not(:checked):not(:disabled):hover + label::before,
-.icheck-material-white > input:first-child:not(:checked):not(:disabled):hover + input[type=hidden] + label::before {
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:not(:checked):not(:disabled):hover + label::before,
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:not(:checked):not(:disabled):hover + input[type=hidden] + label::before {
   border-color: #ffffff;
 }
 
-/*color of the chechbox*/
-
-.icheck-material-white > input:first-child:checked + label::before,
-.icheck-material-white > input:first-child:checked + input[type=hidden] + label::before {
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:checked + label::before,
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:checked + input[type=hidden] + label::before {
   background-color: #ffffff;
   border-color: #ffffff;
 }
 
-/*Tick mark in the check box*/
-
-.icheck-material-white > input:first-child:checked + label::after,
-.icheck-material-white > input:first-child:checked + input[type=hidden] + label::after {
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:checked + label::after,
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:checked + input[type=hidden] + label::after {
   border-bottom-color: #000;
   border-right-color: #000;
 }
 
-/*form input bars*/
+.registration-bg-theme .forms .form-group .icheck-material-white {
+  margin-left: 10px;
+}
 
-.name {
+.registration-bg-theme .btn {
+  font-family: Lato;
+  font-size: 0.7rem;
+  font-weight: 520;
+  letter-spacing: 1px;
+  padding: 9px 19px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   text-align: center;
-  color: #ffffff;
-  font-weight: 90px;
-  margin-bottom: 2px;
-}
-
-#exampleInputName,
-#exampleInputEmailId,
-#exampleInputPassword,
-#exampleInputPassword {
-  border-radius: 40px;
-  margin-bottom: 10px;
-}
-
-/*signup button styling*/
-
-.signup {
   border-radius: 40px;
   width: 60%;
   text-align: center;
   margin-left: 65px;
   margin-top: 18px;
-}
-
-.center {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
-/*bottom line*/
+.registration-bg-theme .btn-light {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.125);
+  border-color: rgba(255, 255, 255, 0.125);
+}
 
-.svg1 {
+.registration-bg-theme .btn-light:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.registration-bg-theme .btn-light:not(:disabled):not(.disabled).active,
+.registration-bg-theme .btn-light:not(:disabled):not(.disabled):active,
+.registration-bg-theme .show > .btn-light.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.125);
+  border-color: rgba(255, 255, 255, 0.125);
+}
+
+.registration-bg-theme .svg1 {
   margin-left: 308px;
-  margin-top: -16px;
+  margin-top: -8px;
   position: absolute;
   transform: rotate(105deg);
+  stroke: #ecebeb;
+  stroke-width: 1;
 }
 
-/* top line*/
-
-.svg2 {
+.registration-bg-theme .svg2 {
   margin-left: 292px;
-  margin-top: -10px;
+  margin-top: -2px;
   position: absolute;
   transform: rotate(105deg);
+  stroke: #ecebeb;
+  stroke-width: 1;
 }
 
-/* dot at the end*/
-
-.dot {
+.registration-bg-theme .dot {
   height: 10px;
   width: 10px;
   background-color: #ff4500;
   border-radius: 50%;
   display: inline-block;
   margin-left: 345px;
-  margin-top: 18px;
+  margin-top: 26px;
 }
 
