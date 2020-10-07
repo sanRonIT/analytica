@@ -19323,6 +19323,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/css/app.css":
+/*!*******************************!*\
+  !*** ./resources/css/app.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -19366,10 +19377,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/scss/app.scss":
-/*!*********************************!*\
-  !*** ./resources/scss/app.scss ***!
-  \*********************************/
+/***/ "./resources/scss/style.scss":
+/*!***********************************!*\
+  !*** ./resources/scss/style.scss ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19378,14 +19389,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/scss/app.scss ***!
-  \*************************************************************/
+/*!***************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/scss/style.scss ./resources/css/app.css ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\Larvel(php)\analytica\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\Larvel(php)\analytica\resources\scss\app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! C:\xampp\laravel\analytica\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\xampp\laravel\analytica\resources\scss\style.scss */"./resources/scss/style.scss");
+module.exports = __webpack_require__(/*! C:\xampp\laravel\analytica\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
