@@ -297,3 +297,78 @@
   margin-top: 26px;
 }
 
+.background {
+  background-image: url("/images/bg-images/background.png");
+}
+
+.background .box {
+  height: 2000px;
+  width: 1010px;
+  background-color: rgba(255, 255, 255, 0.137);
+  margin-top: 130px;
+  border-radius: 7px;
+}
+
+.background .box img {
+  height: 40px;
+  width: 40px;
+  margin-left: 180px;
+  margin-top: 4px;
+}
+
+.background .box .editimg {
+  margin-left: 795px;
+  margin-top: -65px;
+}
+
+.background .box .profile {
+  margin-left: 175px;
+  color: #ffffff;
+  margin-top: -25px;
+  letter-spacing: 1px;
+}
+
+.background .box .edit {
+  margin-left: 800px;
+  margin-top: 20px;
+  color: #ffffff;
+  margin-top: -35px;
+  letter-spacing: 1px;
+}
+
+.background .box .hr {
+  color: #ffffff;
+}
+
+.background .box .maincontent h5 {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.background .box .maincontent .titles {
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.background .box .maincontent .titles input {
+  border-radius: 8px;
+  margin-left: 126px;
+  width: 280px;
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+.background .box .maincontent .titles textarea {
+  border-radius: 8px;
+  margin-left: 140px;
+  background-color: rgba(255, 255, 250, 0.137);
+}
+
+.background .box .image1 {
+  height: 200px;
+  width: 200.94px;
+  margin-left: 780px;
+  margin-top: -1640px;
+}
+
